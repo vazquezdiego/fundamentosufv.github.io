@@ -1,0 +1,712 @@
+
+/*Estilo index*/
+/*----------------------------------------------------------------------------------*/
+
+/*Esta seccion es para la imagen de fondo*/
+.body_index {
+    background-image: url(ingenieria-informatica.jpg);
+    background-size: cover;
+}
+
+/*Esta seccion es para el titulo principal de index*/
+.titulo_index {
+    text-align: center;
+    text-shadow: 2px 2px 3px rgb(255, 255, 255);
+    font-family: 'Vina Sans';
+    font-size: 40px;
+    color:rgb(128, 24, 24);
+    margin-top: 20px;
+    margin-bottom: -59px;
+    padding: 0px
+    
+}
+
+/*Esta seccion es para el menu del archivo index*/
+.menu_index {
+    color: wheat;
+    background-color: rgb(128, 24, 24);
+    width: 1840px;
+    margin-left:-9px;
+    margin-top: 83px;
+    padding: black;
+}
+
+.menu_index li a{
+    text-decoration: none;
+    color:aliceblue;
+    padding: 10px;
+    display: block;
+}
+
+.menu_index li{
+    display: inline-block;
+    text-align: center;
+
+}
+.menu_index li a:hover{
+    color: black;
+    background:  white;
+    opacity: 0.5;
+    
+}
+
+/*Esta seccion para la parte de la introduccion*/
+.introduccion_index {
+    width: 841px;
+    margin-top: 95px;
+    margin-left: 120px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    padding: 11px;
+}
+
+.texto_index {
+    color: rgb(0, 0, 0);
+    margin-left: 2px;
+    margin-top: -9px;
+    width: 841px;
+    height: 58px;
+    text-align: left;
+}
+.titulo2_index {
+    color:rgb(0, 0, 0);
+    text-align: center;
+}
+
+/*Esta seccion es para la parte del parrafo HTML*/
+.parrafo1_index {
+    width: 841px;
+    margin-top: 150px;
+    margin-left: 565px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    padding: 11px;
+}
+
+.texto2_index {
+    color: rgb(0, 0, 0);
+    margin-left: 2px;
+    margin-top: -9px;
+    width: 841px;
+    height: 58px;
+    text-align: left;
+}
+
+/*Esta seccion es para la parte del parrafo de CSS*/
+.titulo3_index {
+    color:rgb(0, 0, 0);
+    text-align: center;
+}
+.parrafo2_index {
+    width: 841px;
+    margin-top: 150px;
+    margin-left: 120px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    padding: 11px;
+}
+
+.texto3_index {
+    color: rgb(0, 0, 0);
+    margin-left: 2px;
+    margin-top: -9px;
+    width: 841px;
+    height: 58px;
+    text-align: left;
+}
+.titulo4_index {
+    color:rgb(0, 0, 0);
+    text-align: center;
+}
+/*------------------------------------------------------------------------------------*/
+
+/* ESTILO DE LA PAGINA DE CONTACTO */
+/*------------------------------------------------------------------------------------*/
+
+/*Esta seccion es para la parte del fondo de pantalla*/
+.body_formulario {
+    background-image: url(./Contacto-221823826.jpg);
+    background-size: cover;
+}
+
+/*titulo contacto*/
+.titulo_contacto {
+    text-align: center;
+    text-shadow: 2px 2px 3px rgb(255, 255, 255);
+    font-family: 'Vina Sans';
+    font-size: 36px;
+    margin-bottom: -59px;
+    margin-top: -28px;
+    color:rgb(128, 24, 24);
+    padding: 0px
+    
+}
+
+
+/*menu de la parte: pagina_de_contacto*/
+.menu_contacto {
+    color: wheat;
+    background-color: rgb(128, 24, 24);
+    border-radius: 5px ;
+    width: 1887px;
+    margin-top: 83px;
+    padding: black;
+}
+
+.menu_contacto li a{
+    text-decoration: none;
+    color:aliceblue;
+
+    padding: 10px;
+    display: block;
+}
+
+.menu_contacto li{
+    display: inline-block;
+    text-align: center;
+
+}
+.menu_contacto li a:hover{
+    color: black;
+    background:  white;
+    opacity: 0.5;
+    
+}
+
+
+/*Parte del formulario*/
+.titulo_formulario {
+    text-align: center;
+    text-shadow: 2px 2px 3px rgb(253, 253, 253);
+    font-family: 'Vina Sans';
+    font-size: 34px;
+    color:rgb(0, 0, 0);
+    padding: 10px
+}
+.form_formulario {
+    box-align: center;
+    height: 250px;
+    width: 250px;
+    background: rgb(128, 24, 24);
+    padding: 81px;
+    border-radius: 5px;
+    margin-top: 150px;
+    margin-left: 520px;
+}
+.lista_formulario{
+    text-align: left;
+}
+.texto_formulario {
+    margin-left: 20px;
+    width: 200px;
+    color: white;
+
+}
+.control_formulario {
+    width: 250px;
+    background-color: rgb(197, 197, 197);
+    box-align: center;
+}
+.boton_formulario {
+    margin-left: 100px;
+    color: rgb(131, 121, 121);
+}
+/*------------------------------------------------------------------------------------*/
+
+/*PÁGINA SOBREMI*/
+/*------------------------------------------------------------------------------------*/
+
+.body_sobremi {
+    background-image: url(ingenieria-informatica.jpg);
+}
+/*Para el título*/
+.section1_sobremi {
+    font-size: 36px;
+    margin-top: -180px;
+    text-align: center;
+    text-shadow: 2px 2px 3px rgb(254, 254, 254);
+    font-family: 'Vina Sans';
+    color:rgb(128, 24, 24);
+    padding: 1px;
+}
+
+/*Lo que ves en pantalla es para el menu de apartado sobre mi*/
+.menu_sobremi {
+    color: wheat;
+    background-color: rgb(128, 24, 24);
+    border-radius: 5px ;
+    width: 1887px;
+    margin-left: -8px;
+    margin-top: 100px;
+    padding: black;
+}
+
+.menu_sobremi li a{
+    text-decoration: none;
+    color:aliceblue;
+
+    padding: 10px;
+    display: block;
+}
+
+.menu_sobremi li{
+    display: inline-block;
+    text-align: center;
+
+}
+.menu_sobremi li a:hover{
+    color: black;
+    background:  white;
+    opacity: 0.5;
+    
+}
+
+
+/*SECCION DESCRIPCIÓN*/
+
+.titulo2_sobremi {
+    text-align: center;
+    text-shadow: 2px 2px 3px rgb(254, 254, 254);
+    font-family: 'Vina Sans';
+    color:rgb(0, 0, 0);
+    padding: 10px; 
+}
+.section2_sobremi{
+    margin-top: 97px;
+    margin-left: -20px;
+    width: 1481px;
+    padding: 30px;
+    color: white;
+    background-color: rgb(128, 24, 24);
+}
+
+/*SECCIÓN CURRÍCULUM*/
+.curriculum_sobremi {
+    margin-left: 400px;
+    margin-top: 40px;
+    background-color: white;
+    border-radius: 10px;
+    width: 592px;
+    padding: 40px;
+}
+.section2_sobremi {
+    padding: 30px;
+    color:white;
+    background-color: rgb(128, 24, 24);
+}
+
+/*Titulo currículum*/
+.titulo_curriculum{
+    text-align: left;
+    text-shadow: 2px 2px 3px rgb(254, 254, 254);
+    font-family: 'Vina Sans';
+    color:rgb(128, 24, 24);
+    margin-left: 30px;
+}
+/*Primera imagen*/
+.imagen_sobremi{
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(128, 24, 24);
+    margin-left: 30px;
+}
+/*Seccion nombre, apellido y titulacion*/
+.div1_sobremi{
+    margin-top: -112px;
+    margin-left: 300px;
+}
+/*Esta seccion es para el nombre y apellido*/
+.nombreApellidos_sobremi{
+    text-align: left;
+    text-shadow: 2px 2px 3px rgb(254, 254, 254);
+    font-family: 'Vina Sans';
+    color:rgb(128, 24, 24);
+    
+}
+
+/*DIV FORMACIÓN*/
+.divformacion_sobremi{
+    margin-top: 40px;
+    margin-left: 39px;
+}
+/*título formacion*/
+.titlformacion_sobremi{
+    text-align: left;
+    text-shadow: 2px 2px 3px rgb(254, 254, 254);
+    color:rgb(128, 24, 24);
+}
+/*Liformacion_sobremi*/
+.liformacion_sobremi{
+    margin-left: -20px;
+}
+
+/*DIV CONTACTO*/
+.divContacto_sobremi{
+    margin-top: 40px;
+    margin-left: 39px;
+}
+/*título formacion*/
+.titlContacto_sobremi{
+    text-align: left;
+    text-shadow: 2px 2px 3px rgb(254, 254, 254);
+    color:rgb(128, 24, 24);
+}
+/*Liformacion_sobremi*/
+.liContacto_sobremi{
+    margin-left: -20px;
+}
+
+/*DIV HABILIDADES*/
+.divHabilidades_sobremi{
+    margin-top: -305px;
+    margin-left: 343px;
+}
+/*título habilidades*/
+.titlHabilidades_sobremi{
+    text-align: left;
+    text-shadow: 2px 2px 3px rgb(254, 254, 254);
+    color:rgb(128, 24, 24);
+}
+/*Lihabilidades_sobremi*/
+.liHabilidades_sobremi{
+    margin-left: -20px;
+}
+
+/*DIV ECPERENCIA LABORAL*/
+.divLaboral_sobremi{
+    margin-top: 43px;
+    margin-left: 343px;
+}
+/*título experencia laboral*/
+.titlLaboral_sobremi{
+    text-align: left;
+    text-shadow: 2px 2px 3px rgb(254, 254, 254);
+    color:rgb(128, 24, 24);
+}
+/*Lihabilidades_sobremi*/
+.liLaboral_sobremi{
+    margin-left: -20px;
+}
+
+
+
+/*FUNDAMENTOS DE INGENIERÍA INFORMÁTICA*/
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+/*Imagen de fondo*/
+.body_FII {
+    background-image: url(ingenieria-informatica.jpg);
+    background-size: cover;
+}
+
+/*menu fundamentos de ingeniería informática*/
+.menu_FII {
+    color: wheat;
+    background-color: rgb(128, 24, 24);
+    border-radius: 5px ;
+    width: 1887px;
+    margin-top: 17px;
+    padding: black;
+}
+
+.menu_FII li a{
+    text-decoration: none;
+    color:aliceblue;
+
+    padding: 10px;
+    display: block;
+}
+
+.menu_FII li{
+    display: inline-block;
+    text-align: center;
+
+}
+.menu_FII li a:hover{
+    color: black;
+    background:  white;
+    opacity: 0.5;
+    
+}
+
+/*Titulo fundamentos de ingeniería informática*/
+.titl_FII{
+    text-align: center;
+    text-shadow: 2px 2px 3px rgb(254, 254, 254);
+    font-family: 'Vina Sans';
+    font-size: 32px;
+    color:rgb(128, 24, 24);
+    margin-left: 30px;
+}
+/*titulo bloque 3*/
+.tilt_BLOQUE_III {
+    text-align: center;
+}
+/*BLOQUE I*/
+.BLOQUE_I_temas{
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 60px;
+    margin-left: 252px;
+    width: 921px;
+    padding: 11px;
+
+}
+
+/*BLOQUE II*/
+.BLOQUE_II_temas{
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 252px;
+    width: 921px;
+    padding: 11px;
+
+}
+
+/*BLOQUE III*/
+.BLOQUE_III_temas{
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 252px;
+    width: 921px;
+    padding: 11px;
+}
+
+/*BLOQUE IV*/
+.BLOQUE_IV_temas {
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 252px;
+    width: 921px;
+    padding: 11px;  
+}
+
+/*BLOQUE V*/
+.BLOQUE_V_temas {
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 252px;
+    width: 921px;
+    padding: 11px;  
+}
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+/*PÁGINA UNIDAD 1*/
+/*-----------------------------------------------------------------------------------------------------------------*/
+.titl_unidad_1 {
+    font-size: 41px;
+    text-align: center;
+    text-shadow: 2px 2px 3px rgb(254, 254, 254);
+    font-family: 'Vina Sans';
+    color:rgb(128, 24, 24);
+    margin-left: 30px; 
+}
+.texto_unidad_1 {
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 280px;
+    width: 921px;
+    padding: 30px;
+}
+/*Para el apartado del enlace del pdf*/
+.pdf_unidad_1 {
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 638px;
+    margin-top: 70px;
+    width: 206px;
+    height: 249;
+    padding: 20px;
+}
+.titl_pdf {
+    text-align: center;
+    color: rgb(128, 24, 24);
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'Vina Sans';
+}
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+
+/*RED*/
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+/*fondo de la página web*/
+.body_red {
+    background-image: url(ingenieria-informatica.jpg);
+}
+/*Titulo principal*/
+.titulo1_red {
+    font-size: 46px;
+    text-align: center;
+    text-shadow: 2px 2px 3px rgb(254, 254, 254);
+    font-family: 'Vina Sans';
+    color:rgb(128, 24, 24); 
+}
+
+/*WEB CARLOS*/
+.titulo2_red {
+  color:rgb(128, 24, 24);  
+  text-align: center;
+  text-shadow: 2px 2px 3px rgb(0, 0, 0);;
+  font-family: 'vina Sans'
+}
+/*Para la caja*/
+.web1_red {
+    height: 316px;
+    background-color: white;
+    border-radius: 10px;
+    border-color: black;
+    width: 251px;
+    padding: 20px;
+    margin-left: 291px;
+    margin-top: 40px;
+}
+
+/*WEB ILLAN*/
+.titulo3_red {
+    color:rgb(128, 24, 24);  
+    text-align: center;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);;
+    font-family: 'vina Sans'
+}
+/*Para la caja*/
+.web2_red {
+    height: 316px;
+    background-color: white;
+    border-radius: 10px;
+    border-color: black;
+    width: 251px;
+    padding: 20px;
+    margin-left: 622px;
+    margin-top: -356px;
+}
+/*WEB LUIS*/
+.titulo4_red {
+    color:rgb(128, 24, 24);  
+    text-align: center;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);;
+    font-family: 'vina Sans'
+  }
+/*Para la caja*/
+.web3_red {
+    height: 316px;
+    background-color: white;
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: black;
+    width: 251px;
+    padding: 20px;
+    margin-left: 952px;
+    margin-top: -356px;
+}
+/*WEB RODRIGO LEÓN*/
+.titulo5_red {
+    color:rgb(128, 24, 24);  
+    text-align: center;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);;
+    font-family: 'vina Sans'
+  }
+/*Para la caja*/
+.web4_red {
+    height: 316px;
+    background-color: white;
+    border-radius: 10px;
+    border-color: black;
+    width: 251px;
+    padding: 20px;
+    margin-left: 291px;
+    margin-top: 40px;
+}
+/*WEB DAVID*/
+.titulo6_red {
+    color:rgb(128, 24, 24);  
+    text-align: center;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);;
+    font-family: 'vina Sans'
+}
+/*Para la caja*/
+.web5_red {
+    height: 316px;
+    background-color: white;
+    border-radius: 10px;
+    border-color: black;
+    width: 251px;
+    padding: 20px;
+    margin-left: 622px;
+    margin-top: -356px;
+}
+/*WEB MARIO*/
+.titulo7_red {
+    color:rgb(128, 24, 24);  
+    text-align: center;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);;
+    font-family: 'vina Sans'
+  }
+/*Para la caja*/
+.web6_red {
+    height: 316px;
+    background-color: white;
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: black;
+    width: 251px;
+    padding: 20px;
+    margin-left: 952px;
+    margin-top: -356px;
+}
+/*-----------------------------------------------------------------------------------------------------------------------*/
+
+
+/*TEMA DE LA PÁGINA*/
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*Título de la página tema*/
+.titl_tema {
+    font-size: 46px;
+    text-align: center;
+    text-shadow: 2px 2px 3px rgb(254, 254, 254);
+    font-family: 'Vina Sans';
+    margin-top: -136px;
+    color:rgb(128, 24, 24); 
+}
+
+/*Sección de Tema de la página*/
+.section1_tema {
+    margin-left: 25px;
+    padding-left: 60px;
+    padding-top: 2px;
+    padding-bottom: 7px;
+    border-radius: 10px;
+    margin-top: 87px;
+    background-color: white;
+    color: black;
+    width: 1400px;
+}
+.titl2_tema {
+    text-align: center;
+}
+/*Sección de Blochain*/
+.section2_tema {
+    padding: 24px;
+    margin-left: -10px;
+    margin-top: 200px;
+    background-color: rgb(128, 24, 24);
+    color: white;
+    width: 1476px;
+}
+.titl3_tema {
+    text-align: center;
+}
+.imagen_tema {
+    padding-left: 550px;
+}

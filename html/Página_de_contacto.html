@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Formulario</title>
+        <meta charset="UFT-8">
+        <link rel="stylesheet" href="..\css/estilo.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ephesis&family=Vina+Sans&display=swap" rel="stylesheet">
+    </head>
+    <body class="body_formulario">
+        <section class="titulo_contacto">
+            <h1>CONTACTO</h1>
+        </section>
+
+        <section class="menu_contacto">
+            <ul class="menu_index">
+               <li><a href="index.html">INICIO</a></li>
+                <li><a href= "página_de_contacto.html">CONTACTO</a> </li>
+                <li><a href = "página_sobre_mi.html">SOBRE MI</a></li>
+                <li><a href = "Página_Red.html">RED</a></li>
+               <li><a href = "Tema_de_la_página.html">TEMA</a></li>
+                <li><a href = "Página_FII.html">FUNDAMENTOS DE INGENIERÍA</a></li>
+            </ul>
+        </section>
+
+        <div class="form_formulario">
+           <header class="titulo_formulario">PÁGINA DE CONTACTO</header>
+            <P class="texto_formulario">Introduce tus datos personales para poder contactar contigo.</P>
+            <form action="/formulario" method="post">
+                <table class="tabla_formulario">
+                    <td class="cabecera_formulario">
+                        <input class="control_formulario" id="Nombre" placeholder="Nombre" />
+                        <input class="control_formulario" id="Apellidos" placeholder="Apellidos" />
+                        <input class="control_formulario"type="s"  id="Sexo" placeholder="Sexo"/>
+                        <input class="control_formulario" id="Edad" placeholder="Edad"/>
+                        <input class="control_formulario" id="Fecha de nacimiento" placeholder="**/**/****"/>
+                        <input class="control_formulario" type = "email" id="email" placeholder="Ejemplo@gmail.com"/>
+                     </td>
+                </table>
+                <input class="boton_formulario"type="submit" value="regitrar" />   
+                <a href="index.html"
+            </form>
+        </div>
+
+    </body>
+</html>
